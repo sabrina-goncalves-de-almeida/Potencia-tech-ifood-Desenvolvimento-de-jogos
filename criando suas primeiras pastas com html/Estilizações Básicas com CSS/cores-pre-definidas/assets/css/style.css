@@ -1,0 +1,19 @@
+body {
+    background: black;
+    color: azure;
+}
+
+ul {
+    background: lightcoral;
+}
+
+#pre-definidas {
+    color: red;
+    background: transparent;
+}
+
+#current-color {
+    color: purple;
+    background: deeppink;
+    border: 2px solid currentColor;
+}
