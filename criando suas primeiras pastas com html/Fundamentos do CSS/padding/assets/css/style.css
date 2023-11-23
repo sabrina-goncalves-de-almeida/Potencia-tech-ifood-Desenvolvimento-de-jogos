@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+#elemento-01 {
+    background: orange;
+    padding: 20px 30px 40px 10px;
+}
+
+
+#elemento-02 {
+    background: purple;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-right: -30px;
+}
+
+#elemento-03 {
+    background: red;
+}
