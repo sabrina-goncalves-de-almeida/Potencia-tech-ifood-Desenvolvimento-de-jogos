@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <!-- CSS Interno, tag style -->
+    <style>
+        h1 {
+            background: blue;
+            color: white;
+        }
+        h2 {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- CSS Inline = vermelho -->
+    <h1 style="background: red; color: white">DIO - Digital Innovation One</h1>
+    <h2 style="color: red;">Trilha de CSS</h2>
+
+    <!-- CSS Interno = azul, tags estilizadas com CSS Interno -->
+    <h1>DIO - Digital Innovation One</h1>
+    <h2>Trilha de CSS</h2>
+
+    <!-- CSS Externo = green, tags estilizadas com CSS Externo. Não precisa de classe, só da tag, porém ela tem mais prioridade que o interno, então fica sobrescrevendo -->
+    <h1 class="titulo1">DIO - Digital Innovation One</h1>
+    <h2 class="titulo2">Trilha de CSS</h2>
+</body>
+</html>
