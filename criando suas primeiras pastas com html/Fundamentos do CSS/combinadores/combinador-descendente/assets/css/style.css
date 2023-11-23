@@ -1,0 +1,19 @@
+li {
+    color: red;
+}
+
+li li {
+    color: green;
+}
+
+.fundo-verde li {
+    background: lightgreen;
+}
+
+.fundo-azul li {
+    background: lightblue;
+}
+
+.fundo-verde #sublista-01 li {
+    color: black;
+}
