@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+#elemento-01 {
+    background: orange;
+    box-sizing: content-box;
+}
+
+
+#elemento-02 {
+    background: purple;
+    box-sizing: border-box;
+}
+
+#elemento-03 {
+    background: red;
+}
+
+#elemento-04 {
+    background: blue;
+}
