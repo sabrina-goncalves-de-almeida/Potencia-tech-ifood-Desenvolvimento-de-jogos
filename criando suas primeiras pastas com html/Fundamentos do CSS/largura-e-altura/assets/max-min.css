@@ -1,0 +1,10 @@
+button {
+    min-width: 200px;
+    min-height: 20px;
+}
+
+p {
+    background: lightcoral;
+    max-width: 500px;
+    max-height: 100px;
+}
