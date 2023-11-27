@@ -1,0 +1,36 @@
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("../images/background-01.png");
+    background-size: 120px;
+    border: 2px solid red;
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y;
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+}
+
+#no-repeat {
+    background-repeat: no-repeat;
+}
+
+#dois-valores {
+    background-repeat: repeat space;
+}
