@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed crimson;
+    color: black;
+    padding: 30px;
+    font-size: 90px;
+    font-weight: 900;
+
+    background: 
+        url(../images/background-01.png) /* image */ 
+        top center/ /* position */200px 200px /* size */ 
+        no-repeat /* repeat */
+        local /* attachment */
+        padding-box /* origin */
+        content-box /* clip */
+        crimson /* color */
+    ;
+}
