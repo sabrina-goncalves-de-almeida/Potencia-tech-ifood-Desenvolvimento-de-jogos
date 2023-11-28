@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(42, 42, 42);
+    color: crimson;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed crimson;
+    color: black;
+    padding: 30px;
+    font-size: 90px;
+    font-weight: 900;
+    background: rgb(255, 82, 139);
+    background-image: url(../images/background-01.png);
+    background-blend-mode: multiply;
+}
