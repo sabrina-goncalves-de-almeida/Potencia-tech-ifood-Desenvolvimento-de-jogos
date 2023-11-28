@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(42, 42, 42);
+    color: crimson;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed black;
+    color: black;
+    padding: 30px;
+    font-size: 90px;
+    font-weight: 900;
+    background:
+    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #EC173A;
+}
+
+#padding-box {
+    background-clip: padding-box;
+}
+
+#border-box {
+    background-clip:border-box;
+}
+
+#content-box {
+    background-clip: content-box;
+}
+
+#text {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
