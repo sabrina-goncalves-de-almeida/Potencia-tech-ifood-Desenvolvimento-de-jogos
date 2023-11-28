@@ -1,0 +1,32 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: black;
+    border: 30px solid;
+}
+
+#exemplo-01 {
+    border-image-source: url(../images/background-01.png);
+    border-image-repeat: round;
+    border-image-slice: 40; /* fill */
+    border-image-width: 10px;
+    border-image-outset: 30px;
+}
+
+#exemplo-02 {
+    border-image-source: linear-gradient(crimson, black);
+    border-image-slice: 50;
+}
+
+#exemplo-03 {
+    border-image: linear-gradient(crimson, black)
+    40 //* slice */
+    10px //* width */
+    1  /*outset*/
+    round;
+}
