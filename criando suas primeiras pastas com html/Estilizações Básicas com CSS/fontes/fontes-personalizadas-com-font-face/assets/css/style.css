@@ -13,7 +13,7 @@
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
-    font-weight: italic;
+    font-style: italic;
 }
 
 h1 {
@@ -28,5 +28,5 @@ p {
 
 li {
     font-family: Roboto;
-    font-weight: italic;
+    font-style: italic;
 }
