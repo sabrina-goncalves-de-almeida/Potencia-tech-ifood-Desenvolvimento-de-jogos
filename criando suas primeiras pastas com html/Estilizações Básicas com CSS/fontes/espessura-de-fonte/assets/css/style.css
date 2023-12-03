@@ -1,0 +1,20 @@
+code {
+    background: lightgreen;
+}
+
+div {
+    font-weight: bold;
+}
+
+div p {
+    font-weight: lighter;
+}
+
+#tamanho {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#bold {
+    font-weight: bold;
+}
