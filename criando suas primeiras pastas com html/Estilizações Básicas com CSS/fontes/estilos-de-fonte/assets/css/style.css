@@ -1,0 +1,15 @@
+code {
+    background: lightgreen;
+}
+
+#tamanho {
+    font-size: 20px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
