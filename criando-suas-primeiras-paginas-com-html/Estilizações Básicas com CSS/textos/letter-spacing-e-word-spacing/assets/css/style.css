@@ -1,0 +1,11 @@
+code {
+    background: lightgreen;
+}
+
+#exemplo-letter-spacing {
+    letter-spacing: 2px;
+}
+
+#exemplo-word-spacing {
+    word-spacing: 2px;
+}
