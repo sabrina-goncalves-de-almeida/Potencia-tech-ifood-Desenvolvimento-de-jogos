@@ -1,0 +1,21 @@
+code {
+    background: darkmagenta;
+}
+
+.exemplo {
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+}
+
+#exemplo-01 {
+    writing-mode: horizontal-tb;
+}
+
+#exemplo-02 {
+    writing-mode: vertical-rl;
+}
+
+#exemplo-03 {
+    writing-mode: vertical-lr;
+}
