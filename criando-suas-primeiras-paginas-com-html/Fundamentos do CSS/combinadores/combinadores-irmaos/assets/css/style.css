@@ -1,0 +1,12 @@
+div + p{
+    color: red;
+}
+
+.fundo-verde + p {
+    background: lightgreen;
+}
+
+.fundo-azul ~ p{
+    background: lightblue;
+}
+

@@ -1,0 +1,71 @@
+/* Seletor universal */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Seletor de Tag/Tipo */
+h1 {
+    background: darkblue;
+    color: lightgreen;
+}
+
+div {
+    background: lightblue;
+    color: darkblue;
+}
+
+li {
+    background: lightgreen;
+}
+
+/* Seletor de "id" */
+
+#texto-boas-vindas {
+    background: red;
+    color: white;
+}
+
+#explicacao-seletores {
+    background: lightcoral;
+}
+
+/* Seletores por "class" */
+
+.seletores-mais-comuns {
+    color: red;
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+/* Seletor de atributo */
+
+[title] {
+    color: green;
+}
+
+[title="Netflix"] {
+    color: red;
+}
+
+[title~="Spotify"] {
+    color:dodgerblue;
+}
+
+[title|="Streaming"] {
+    background: black;
+}
+
+[href^="https://"] {
+    background: palevioletred;
+}
+
+[href$=".com/"] {
+    text-transform: uppercase;
+}
+
+[class*="a"] {
+    border: 2px dotted black;
+}

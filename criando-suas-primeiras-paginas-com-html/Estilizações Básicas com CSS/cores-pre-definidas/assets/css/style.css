@@ -1,0 +1,47 @@
+body {
+    background: black;
+    color: azure;
+}
+
+ul {
+    background: lightcoral;
+}
+
+#pre-definidas {
+    color: red;
+    background: transparent;
+}
+
+#current-color {
+    color: purple;
+    background: deeppink;
+    border: 2px solid currentColor;
+}
+
+#rgb {
+    color: rgb(0, 171, 168);
+    background: rgb(50%, 30%, 14%);
+}
+
+#rgba {
+    color: rgba(0, 171, 168, .7);
+    background: rgba(161, 74, 71, 0.423);
+}
+
+#hex{
+    color: #df0000;
+}
+
+#hex-transparencia {
+    color: #df0000b4;
+}
+
+#hsl {
+    color: hsl(270, 100%, 50%);
+    background: hsl(21, 100%, 50%);
+}
+
+#hsla {
+    color: hsla(270, 100%, 50%, 0.759);
+    background: rgba(255, 89, 0, 0.822);
+}

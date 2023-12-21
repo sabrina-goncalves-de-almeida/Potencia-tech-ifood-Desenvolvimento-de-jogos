@@ -1,0 +1,55 @@
+
+.example-01 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: palevioletred;
+}
+
+.example-02 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("../images/background-01.png");
+}
+
+.example-03 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: linear-gradient(red, orange, yellow);
+}
+
+.example-04 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: radial-gradient(red, orange, yellow);
+}
+
+.example-05 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: repeating-linear-gradient(to top, red 0 20px, lightpink 20px 40px);
+}
+
+.example-06 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background:
+    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #EC173A;
+}
+
+.example-07 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url(../images/logoPng.png), url("../images/background-01.png");
+}

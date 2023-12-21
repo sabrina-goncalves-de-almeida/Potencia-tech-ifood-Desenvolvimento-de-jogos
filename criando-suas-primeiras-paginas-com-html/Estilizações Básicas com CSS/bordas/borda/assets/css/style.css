@@ -1,0 +1,34 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-style: dotted dashed double inset;
+    border-width: 10px 20px;
+    border-color: aqua red crimson coral;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.exemplo-01 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-style: double;
+    border-width: 20px;
+    border-color: crimson;
+    border-radius: 50px/100px;
+}
+
+.exemplo-02 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border:  20px double crimson;
+    border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+code {
+    background: lightgreen;
+}
+
+p {
+    background: lavender;
+    padding: 10px;
+    text-align: right;
+}
+
+.exemplo {
+    width: 370px;
+    border: 1px solid black;
+    text-align: justify;
+}

@@ -1,0 +1,35 @@
+
+.example {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("../images/background-01.png");
+}
+
+.example-02 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url(../images/logoPng.png), url("../images/background-01.png");
+}
+
+#cover {
+    background-size: cover;
+}
+
+#contain {
+    background-size: contain;
+}
+
+#tamanho {
+    background-size: 200px; 
+    /* background-size: 100%; */
+}
+
+#exemplo-x-y {
+    background-size: 200px 100%;
+}
+
+#exemplo-camada {
+    background-size: contain, cover;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+li {
+    font-family: Roboto;
+    font-style: italic;
+}

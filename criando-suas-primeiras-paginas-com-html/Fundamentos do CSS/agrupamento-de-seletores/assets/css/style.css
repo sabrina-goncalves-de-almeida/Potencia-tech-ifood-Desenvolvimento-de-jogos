@@ -1,0 +1,13 @@
+h1, p, div, #link-referencia {
+    color: red;
+}
+
+p.texto, h1, [id^="botao"] {
+    background: lightblue;
+}
+
+.teste.texto {
+    background: lightcoral;
+}
+
+

@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(18, 18, 18);
+    color: crimson;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("../images/background-01.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed crimson;
+    padding: 30px;
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin:border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+}

@@ -1,0 +1,37 @@
+code {
+    background: darkmagenta;
+}
+
+.codigo-02 {
+    background-color:darkcyan;
+}
+
+.exemplo {
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.exemplo-02 {
+    width: 100px;
+    background-color: aquamarine;
+}
+
+#normal {
+    word-wrap: normal;
+}
+
+#break-word {
+    word-wrap: break-word;
+}
+
+#normal-02 {
+    word-break: normal;
+}
+
+#break-all {
+    word-break: break-all;
+}
+
+#keep-all {
+    word-break: keep-all;
+}

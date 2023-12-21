@@ -1,0 +1,16 @@
+div {
+    background: lightblue;
+    width: initial;
+    height: 100px;
+}
+
+#div-02 {
+    background: lightgreen;
+    width: 200px;
+    height: 200px;
+}
+
+#div-03 {
+    background: lightcoral;
+    height: inherit;
+}

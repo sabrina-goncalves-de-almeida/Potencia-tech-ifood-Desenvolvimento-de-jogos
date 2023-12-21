@@ -1,0 +1,25 @@
+p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+code {
+    background:forestgreen;
+}
+
+.exemplo {
+    width: 200px;
+    background-color: lightgreen;
+}
+
+#exemplo-01 {
+    text-overflow: clip;
+}
+
+#exemplo-02 {
+    text-overflow: ellipsis;
+}
+
+#exemplo-03 {
+    text-overflow: "Escreva o que quiser"; /* só funciona no navegador do firefox*/
+}

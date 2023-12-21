@@ -1,0 +1,14 @@
+code {
+    background: lightgreen;
+}
+
+h1 + p {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+a {
+    text-decoration: underline solid green 5px;
+}

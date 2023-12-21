@@ -1,0 +1,14 @@
+div {
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-image: url("../images/background-01.png");
+    background-size: 120px;
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-position: right 10px bottom 20px;
+}
