@@ -1,0 +1,11 @@
+.exemplo {
+    background-color: purple;
+    border: 5px solid orange;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.exemplo img {
+    width: 10%;
+}
