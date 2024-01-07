@@ -41,6 +41,7 @@ notas.push(7);
 notas.push(8);
 notas.push(2);
 notas.push(5);
+notas.push(8);
 
 console.log(notas.length); // verifica tamanho da lista
 
@@ -55,3 +56,15 @@ for (let n = 0; n < nome.length; n++) {
     console.log(nome[n]);
     
 }
+
+// notas
+
+let soma = 0;
+
+for (let k = 0; k < notas.length; k++) {
+    const nota = notas[k];
+    soma = soma + nota;
+}
+
+const media = soma / notas.length;
+console.log(media);
